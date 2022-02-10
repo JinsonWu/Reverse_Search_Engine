@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+	font-family:"Times New Roman","標楷體";	
+}
+body #title {
+	background-color: transparent;
+	color: black;
+	position: absolute;
+	left:  600px;
+	top:   60px;
+	font-size:3.5em;/*56px*/
+}
+div#container{
+	/*website width:1536px, height: 760px
+	  left: 368px, right: 1168px, top:120px, bottom:720px*/
+	background-color:black;
+	position: absolute;
+	left:  368px;
+	top:   120px;
+	width: 800px;
+	height:600px;
+}
+
+.enemyball{
+	border-radius: 100%;
+	position: absolute;
+}
+.ourball{
+	border-radius: 100%;
+	position: absolute;
+}
+footer #id1 {
+	position:absolute;
+	bottom:0em;
+	left:0em;
+	font-weight:bold;
+	font-size:1.5em;
+	color:black;
+	background-color:transparent;
+	border-color:transparent;
+}
+footer #id2 {
+	position:absolute;
+	bottom:0em;
+	left:10em;
+	font-weight:bold;
+	font-size:1.5em;
+	color:black;
+	background-color:transparent;
+	border-color:transparent;
+}

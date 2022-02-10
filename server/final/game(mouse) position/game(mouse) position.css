@@ -1,0 +1,43 @@
+@charset "utf-8";
+*{
+	font-family:"Times New Roman","標楷體";	
+}
+body #title {
+	background-color: transparent;
+	color: black;
+	position: absolute;
+	left:  570px;
+	top:   60px;
+	font-size:3.5em;/*56px*/
+}
+body #process {
+	background-color: transparent;
+	color: black;
+	position: absolute;
+	left:  940px;
+	top: 88px;
+	font-size:1.5em;/*56px*/
+}
+div#container{
+	background-color:rgba(0, 0, 0, 0.5);
+	left:  368px;
+	top:   120px;
+	width: 800px;
+	height: 600px;
+	position: relative;
+	margin:-10px;
+}
+div#container:active{
+	background-color:black;
+	left:  368px;
+	top:   120px;
+	width: 800px;
+	height: 600px;
+	position: relative;
+	margin:-10px;	
+}
+.playball{
+	border-radius: 100%;
+	position: absolute;
+}
+

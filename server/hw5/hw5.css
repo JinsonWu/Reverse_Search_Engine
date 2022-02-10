@@ -1,0 +1,63 @@
+@charset "utf-8";
+*{
+	font-family:"Times New Roman","標楷體";
+}
+/*div, container間不能空格*/
+div#container{
+	background-color:black;
+	width: 800px;
+	height: 600px;
+	position: relative;
+	margin:-10px;
+}
+
+.ball{
+	border-radius: 100%;
+	position: absolute;
+}
+body #id0{
+	text-decoration:none;
+	position:absolute;
+	color:pink;
+	background-color:skyblue;
+	border-color:transparent;
+	margin:-2.56em;
+	font-size:300%;
+	top:50%;
+	left:60%;
+}
+a{
+	text-decoration:none;
+	position:absolute;
+	color:pink;
+	padding-left:60%;
+	margin:-2em;
+	font-size:300%;
+	top:50%;
+}
+footer{
+	background-color:red;
+}
+footer #id1 {
+	position:absolute;
+	bottom:0em;
+	left:0em;
+	font-weight:bold;
+	font-size:1.5em;
+	color:black;
+	background-color:transparent;
+	border-color:transparent;
+}
+footer #id2 {
+	position:absolute;
+	bottom:0em;
+	left:10em;
+	font-weight:bold;
+	font-size:1.5em;
+	color:black;
+	background-color:transparent;
+	border-color:transparent;
+}
+
+
+

@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "tfjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^2.8.3",
+    "@tensorflow/tfjs-node": "^2.8.3",
+    "@tensorflow/tfjs-node-gpu": "^2.8.3",
+    "brfs": "^2.0.2",
+    "child_process": "^1.0.2",
+    "echarts": "^5.0.0",
+    "fs": "0.0.1-security",
+    "jpeg-js": "^0.4.2",
+    "open": "^7.3.1",
+    "tfjs-applications": "^0.1.1",
+    "tfjs-cifar10": "^1.1.1",
+    "vue-echarts-v3": "^2.0.1"
+  }
+}

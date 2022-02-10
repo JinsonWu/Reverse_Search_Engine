@@ -1,0 +1,122 @@
+@charset "utf-8";
+*{
+	font-family:"Times New Roman","標楷體";
+}
+h1{
+	text-align:center;
+}
+
+/*div, container間不能空格*/
+div#container{
+	margin-top:5em;
+	margin-left:37%;
+	background-color:gray;
+	width: 25.5em;
+	height: 25.5em;
+}
+
+div#container .brick{
+	float: left;
+	background-color:pink;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick:nth-of-type(4n+1){
+	clear: both;
+}
+
+div#container .brick2{
+	float: left;
+	background-color:red;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick4{
+	float: left;
+	background-color:orange;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick8{
+	float: left;
+	background-color:yellow;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick16{
+	float: left;
+	background-color:green;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick32{
+	float: left;
+	background-color:skyblue;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick64{
+	float: left;
+	background-color:blue;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+
+div#container .brick128{
+	float: left;
+	background-color:purple;
+	margin: 3px;
+	font-size:3em;
+	text-align:center;
+	width:2em;
+	height:2em;
+}
+footer #id1 {
+	position:absolute;
+	bottom:0em;
+	left:0em;
+	font-weight:bold;
+	font-size:1.5em;
+	color:black;
+	background-color:transparent;
+	border-color:transparent;
+}
+footer #id2 {
+	position:absolute;
+	bottom:0em;
+	left:10em;
+	font-weight:bold;
+	font-size:1.5em;
+	color:black;
+	background-color:transparent;
+	border-color:transparent;
+}
+
+

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+*{
+	font-family:"Times New Roman","標楷體";	
+}
+.wrap{	
+	height:100%;
+	width:100%;
+	position:fixed;
+	background-color:rgba(0,0,0,.6); 
+	margin: none;
+}
+.wrap:active{
+	background-color:transparent; 
+}
+.wrap h1{
+	font-weight:bold;
+	padding-top:10em;
+	text-align:center;
+	color:white;	
+}
+.wrap a{
+	text-decoration:none;
+}
+.wrap h2{
+	width:300px;
+	margin:auto;
+	font-weight:bold;
+	text-align:center;
+	color:gray;
+}

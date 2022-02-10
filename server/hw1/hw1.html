@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HW1_我的首頁</title>
+		<meta name="keyword" content="homepage">
+		<link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+		<link href="hw1.css" rel="stylesheet" type="text/css">
+		
+		<style>
+			body{
+				background-image: url('background.png');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size:935px;
+				background-position: right bottom;
+			}
+		</style>		
+		
+	</head>
+	<body>	
+		<h1>
+			課程作業網頁
+		</h1>
+<!--navigator------------------------------------------------>
+		<nav>
+			<div id="logo"><img src="icon.ico" alt="LOGO"></div>
+			<ul>
+				<li><button><a href='#'>首頁  </a></button></li>
+				<li><button><a href='#'>關於我</a></button></li>
+				<li><button><a href='#'>目錄一</a></button></li>
+				<li><button><a href='#'>目錄二</a></button></li>
+				<li>
+					<button>
+					<!--其他作業檔案並沒有上傳,故會顯示"無法存取你的檔案"-->
+					<select name="hw" onchange="self.location.href=options[selectedIndex].value">
+						<option value="hw" disabled selected>作業</option>
+						<option value="hw1.html">作業一</option>
+						<option value="../hw2/hw2.html">作業二</option>
+						<option value="../hw3/hw3.html">作業三</option>
+						<option value="../hw4/hw4.html">作業四</option>
+						<option value="../hw5/hw5.html">作業五</option>
+						<option value="../hw6/hw6.html">作業六</option>
+						<option value="../final/game/game.html">Game</option>
+						<option value="../search.html">Search</option>
+					</select>
+					</button>
+				</li>
+				<li><button><a href='#'>聯絡資訊</a></button></li>				
+			</ul>
+			
+			<div id="form-search">
+				<form action='#' method="post">
+					<label for="search">Search:</label>
+					<input type="search" value="" placeholder="請輸入文字">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+		</nav>
+<!---------------------------------------------------------->
+<!--content------------------------------------------------>		
+		<content>
+			<div id="photo">
+				<img src="picture1.jpg" alt="" style="float: left;" width = "220px">
+			</div>
+		
+			<div id="content">
+				<dl>
+					<dt>基本資料</dt>
+						<dd>姓名：林政誠</dd>
+						<dd>英文名字：Brandon</dd>
+						<dd>學號：0612005</dd>
+						<dd>學系：電子物理系</dd>
+						<dd>生日：1999 年 4 月 22 日</dd>
+						<dd>星座血型：金牛座/O型</dd>
+						<dd>興趣：打JavaScript(開玩笑的)</dd>
+						<dd>願望：老師給我打高分(認真的)</dd>
+					<dt>假想(夢想)資料</dt>
+						<dd>配偶：<button><a href='wife.jpg'>新垣結衣</a></button> </dd>
+						<dd>妹妹：<button><a href='sister.jpg'>與田祐希</a></button> </dd>
+					<dt>聯絡資料</dt>
+						<dd>E-mail：brandon110.ep06@nctu.edu.tw</dd>
+						<dd>地址：國立交通大學 9舍</dd>
+				</dl>
+			</div>
+		</content>
+<!-------------------------------------------------------------->		
+		<input type="button" id = "id1" value="Back To Homepage" onclick="location.href='../enter/enter.html'">
+		<input type="button" id = "id2" value="Back To Previous Page" onclick="history.back()">
+	</body>
+	<footer>
+	2020 Fall JavaScript網頁程式設計 HW1 Produced by C.C.Lin
+	</footer>
+</html>

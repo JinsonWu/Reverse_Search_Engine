@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{
+	font-family:"Times New Roman","標楷體";
+}
+div#container{
+	background-color:transparent;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.ball{
+	border-radius: 100%;
+	position: absolute;
+	color:black;
+	font-size:4em;
+	text-align:center;
+	line-height:210px;
+}
+
+#Search{
+	border-radius: 100%;
+	position: absolute;
+	color:black;
+	font-size:4em;
+	text-align:center;
+	line-height:300px;
+}
+
+#Game{
+	border-radius: 100%;
+	position: absolute;
+	color:black;
+	font-size:4em;
+	text-align:center;
+	line-height:300px;
+}
+
+.ball:hover{
+	color:yellow;
+}
+
+.ball:active{
+	color:skyblue;
+}
+
+#Search:hover{
+	color:yellow;
+}
+
+#Game:hover{
+	color:yellow;
+}
+
+#Search:active{
+	color:skyblue;
+}
+
+#Game:active{
+	color:skyblue;
+}
