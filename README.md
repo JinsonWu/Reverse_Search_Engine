@@ -16,4 +16,9 @@ A joyful game designed and implemented by Cheng-Chen Lin. Client is able to choo
 ### Reverse Search Engine
 Client should firstly upload a image. The preview will show up while the uploading is done. Then, press the "data settlement" button to set up prerequisites. After triggering the search button, the server will predict the class of the image and pop out a new tab for searching. 
 
-**This project was in collaboration with Cheng-Chen Lin in National Chiao Tung University
+## Contact Info
+Author: Chun-Sheng Wu, MS student in Computer Engineering @ Texas A&M University  
+Email: jinsonwu@tamu.edu
+LinkedIn: https://www.linkedin.com/in/chunshengwu/
+
+*This project was in collaboration with Cheng-Chen Lin in National Chiao Tung University
