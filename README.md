@@ -18,7 +18,7 @@ Client should firstly upload a image. The preview will show up while the uploadi
 
 ## Contact Info
 Author: Chun-Sheng Wu, MS student in Computer Engineering @ Texas A&M University  
-Email: jinsonwu@tamu.edu
+Email: jinsonwu@tamu.edu  
 LinkedIn: https://www.linkedin.com/in/chunshengwu/
 
-*This project was in collaboration with Cheng-Chen Lin in National Chiao Tung University
+*This project was in collaboration with Cheng-Chen Lin in National Chiao Tung University*
