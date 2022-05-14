@@ -1,4 +1,4 @@
-# Reverse_Search_Engine
+# Animal_Image_Reverse_Search_Engine
  
 The basic concept was referred to graph2graph search engine, which was currently banned. This search engine utilized pre-trained MobileNetV2 on animal images with NodeJS. Machine would output the class of the input image, then searching on default engine (on this one is the Google search engine). We adopted Wampserver to construct the UI interface to give public access. Primary website appearance was completed with PHP, CSS, and embedded JavaScript applications, e.g. mini games. This website was temporarily shutdown due to network unstability. 
 
