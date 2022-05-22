@@ -4,6 +4,8 @@ The basic concept was referred to graph2graph search engine, which was currently
 
 ## Content and Operation Description
 
+<img src="./Processing_chart.PNG" width="600" height="350">
+
 ### Cover Page and Home Page
 Cover page was designed to welcome clients. Home page briefly described the content the server had. Client could use the buttons in home page to jump to desired functions.
 
